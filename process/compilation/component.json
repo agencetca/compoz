@@ -1,0 +1,29 @@
+{
+
+
+
+        "compile" : {
+
+
+            "description" : "JSONtoHTML compilation system",
+            "payload" : [
+
+                ["compoz/process/compilation/configure", "template"]
+
+            ]
+
+        },
+
+        "configure" : {
+
+            "description" : "JSONtoHTML configuration system",
+            "payload" : [
+
+                ["compoz/methods/configure/structure", "structure"],
+                ["compoz/methods/configure/structure", "structure"]
+
+            ]
+
+        }
+
+}
